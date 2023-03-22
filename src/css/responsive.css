@@ -1,0 +1,9 @@
+@media (max-width: 561px) {
+    .advice-container {
+        width: auto;
+    }
+
+    .advice-container {
+        margin: 10px;
+    }
+}

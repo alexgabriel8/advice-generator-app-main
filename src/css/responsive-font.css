@@ -1,0 +1,5 @@
+@media (max-width: 456px) {
+    .advice-container .advice-text {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,9 @@
+:root {
+    --primary-color-1: hsl(193, 38%, 86%);
+    --primary-color-2: hsl(150, 100%, 66%);
+    --neutral-color-1:  hsl(217, 19%, 38%);
+    --neutral-color-2: hsl(217, 19%, 24%);
+    --neutral-color-3: hsl(218, 23%, 16%);
+
+    --default-font-family: "Manrope", sans-serif;
+}

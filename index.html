@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/font.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/responsive-font.css">
+
+</head>
+<body>
+
+  <main>
+    <div class="advice-container">
+
+      <div class="loading-container">
+        <img class="loading-animation" src="src/images/loading.svg" alt="Loading animation">
+      </div>
+
+      <h1 class="advice-number-container">Advice #0</h1>
+      <q class="advice-text"></q>
+
+      <picture>
+        <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 456px)">
+        <img src="./src/images/pattern-divider-desktop.svg" class="divider-img" alt="Image used to divide content">
+      </picture>
+
+      <button class="dice-container"><img src="./src/images/icon-dice.svg" class="dice" alt="Dice icon">
+
+    </div>
+  </main>
+
+  <script src="./src/js/get-advice.js"></script>
+</body>
+</html>
