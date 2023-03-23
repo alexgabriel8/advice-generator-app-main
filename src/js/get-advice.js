@@ -6,7 +6,13 @@ const diceBtnContainer = document.querySelector('.dice-container')
 diceBtnContainer.addEventListener('click', () => getAdvice())
 
 async function fetchAdvice() {
-    return await (await (await fetch('https://api.adviceslip.com/advice')).json()).slip
+    const response = await fetch('https://api.adviceslip.com/advice', {cache: 'no-cache'})
+    /* Alternate solution to Firefox not showing new advices:
+    const response = await fetch('https://api.adviceslip.com/advice/' + Math.floor(Math.random() * 200))
+    */
+    const responseJson = await response.json()
+    return await responseJson.slip
+    
 }
 
 async function showAdvice(advice) {
