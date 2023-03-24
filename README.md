@@ -33,3 +33,7 @@ In this challenge, I had to:
 - Make the page responsive
 - Have hover states for all interactive elements on the page
 - Generate a new piece of advice everytime the dice icon is clicked
+
+## Acknowledgements
+
+[Ahmed Zougari](https://www.frontendmentor.io/profile/zougari47) and [Héctor Martin Dama](https://www.frontendmentor.io/profile/HectorMartinDama) at Frontend Mentor showed me ways to fix a bug where Firefox would not generate a new piece of advice, no matter how many times you clicked on the die.
